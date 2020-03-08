@@ -1,0 +1,148 @@
+.tree, .tree ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 95%;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #606ec3;
+    border-color: #606ec3;
+}
+
+.panel-primary {
+
+    border-color: #606ec3;
+    margin: 3%;
+
+}
+.tree ul {
+
+    margin-left:1em;
+
+    position:relative
+
+}
+
+.tree ul ul {
+
+    margin-left:.5em
+
+}
+
+.tree ul:before {
+
+    content:"";
+
+    display:block;
+
+    width:0;
+
+    position:absolute;
+
+    top:0;
+
+    bottom:0;
+
+    left:0;
+
+    border-left:1px solid
+
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    border-radius: 0;
+}
+.tree li {
+margin: 1px;
+    padding: 15px 1em;
+    line-height: 2em;
+    color: #FFF;
+    position: relative;
+    background: rgba(75, 100, 111, 0.6);
+    border-bottom: 1px solid rgba(138, 164, 175, 0.52);
+    margin-bottom: 10px;
+}
+
+.tree ul li:before {
+
+    content: "";
+    display: block;
+    width: 1px;
+    height: 0;
+    border-top: 1px solid;
+    margin-top: -1px;
+    position: absolute;
+    top: 1em;
+    left: 0;
+
+}
+
+.tree ul li:last-child:before {
+
+    background:#fff;
+
+    height:auto;
+
+    top:1em;
+
+    bottom:0
+
+}
+
+.indicator {
+
+    margin-right:5px;
+
+}
+
+.tree li a {
+
+    text-decoration: none;
+
+    color:#369;
+
+}
+
+.tree li button, .tree li button:active, .tree li button:focus {
+
+    text-decoration: none;
+
+    color:#369;
+
+    border:none;
+
+    background:transparent;
+
+    margin:0px 0px 0px 0px;
+
+    padding:0px 0px 0px 0px;
+
+    outline: 0;
+
+}
+
+
+.action{
+    margin-top: 10px;
+}
+
+@media (max-width: 770px) {
+#tree1{
+    max-width: 70%;
+    margin-left: -15px;
+}
+.indicator {
+    margin-right: 0px;
+    margin-left: -10px;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: 3px 3px;
+    font-size: 8px;
+    }
+    .tree li {
+padding :0 1em;
+    padding-right: 0;
+}
+}
