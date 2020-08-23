@@ -1,8 +1,8 @@
 <h1>cms voila </h1>
 
-<p><a>composer create-project fesal/cms_base_voila:dev-master</a></p>
+<p><a>composer create-project VoilaBalkis/cms_voila:dev-master</a></p>
 
-<p><a>cd cms_base_voila</a></p>
+<p><a>cd cms_voila</a></p>
 
 <p><a>composer require crocodicstudio_voila/crudbooster:dev-master</a></p>
 
@@ -15,7 +15,7 @@ import database cms_db_v2.sql
   url admin panel : http://localhost:8000/modules
   
   email: superadmin@voila.digital <br>
-  pass : 123456
+  pass : pass123456
  </div>
  
  
